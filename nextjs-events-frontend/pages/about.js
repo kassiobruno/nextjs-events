@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export default function AboutPage() {
   return (
@@ -5,6 +6,7 @@ export default function AboutPage() {
       <h1>About</h1>
       <p>Esse é um App para encontrar eventos de DJs e outros eventos musicais</p>
       <p>Versao: 1.0.0</p>
+      <Link href="/">Home</Link>
     </div>
   )
 }
